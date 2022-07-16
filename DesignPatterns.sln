@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{2C9B6619-C272-4C68-AC3B-D2C003902CA5}"
 EndProject
@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{96F60FA4-3B55-472B-A746-EE22765B2D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoType", "ProtoType\ProtoType.csproj", "{9C3E889F-F1E7-4670-A5D5-A909F9309B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoType", "ProtoType\ProtoType.csproj", "{9C3E889F-F1E7-4670-A5D5-A909F9309B69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{F69E4FF5-ACB3-440A-B41D-836577A445EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{22DCD5DC-8522-41D3-9CAC-B1A664C5D80F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{9C3E889F-F1E7-4670-A5D5-A909F9309B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3E889F-F1E7-4670-A5D5-A909F9309B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3E889F-F1E7-4670-A5D5-A909F9309B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DCD5DC-8522-41D3-9CAC-B1A664C5D80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DCD5DC-8522-41D3-9CAC-B1A664C5D80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DCD5DC-8522-41D3-9CAC-B1A664C5D80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DCD5DC-8522-41D3-9CAC-B1A664C5D80F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22DCD5DC-8522-41D3-9CAC-B1A664C5D80F} = {F69E4FF5-ACB3-440A-B41D-836577A445EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4598F378-3F1F-45A2-86C0-43382C57A3EC}
